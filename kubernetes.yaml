@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: flaskapp
-        image: us-ashburn-1.ocir.io/idcjesmg6idk/flaskapp:1.10
+        image: us-ashburn-1.ocir.io/idcjesmg6idk/flaskapp:3.0
         ports:
         - containerPort: 80
       imagePullSecrets:
